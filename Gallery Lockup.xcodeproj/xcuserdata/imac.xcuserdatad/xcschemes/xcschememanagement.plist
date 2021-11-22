@@ -7,7 +7,25 @@
 		<key>Gallery Lockup.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>19</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>88D315D1273E8DD40057C3E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88D315EA273E8DD70057C3E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88D315F5273E8DD70057C3E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

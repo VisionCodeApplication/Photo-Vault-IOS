@@ -3,10 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35305BAB846E5CC4681BC3C8 /* Pods_Gallery_Lockup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA5262CA39D9EA8BCCE9CE9 /* Pods_Gallery_Lockup.framework */; };
+		880BFBCE274660F500F4831B /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBBB274660F500F4831B /* Poppins-ExtraLight.ttf */; };
+		880BFBCF274660F500F4831B /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBBC274660F500F4831B /* Poppins-ThinItalic.ttf */; };
+		880BFBD0274660F500F4831B /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBBD274660F500F4831B /* Poppins-ExtraLightItalic.ttf */; };
+		880BFBD1274660F500F4831B /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBBE274660F500F4831B /* Poppins-BoldItalic.ttf */; };
+		880BFBD2274660F500F4831B /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBBF274660F500F4831B /* Poppins-Light.ttf */; };
+		880BFBD3274660F500F4831B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC0274660F500F4831B /* Poppins-Medium.ttf */; };
+		880BFBD4274660F500F4831B /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC1274660F500F4831B /* Poppins-SemiBoldItalic.ttf */; };
+		880BFBD5274660F500F4831B /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC2274660F500F4831B /* Poppins-ExtraBoldItalic.ttf */; };
+		880BFBD6274660F500F4831B /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC3274660F500F4831B /* Poppins-ExtraBold.ttf */; };
+		880BFBD7274660F500F4831B /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC4274660F500F4831B /* Poppins-BlackItalic.ttf */; };
+		880BFBD8274660F500F4831B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC5274660F500F4831B /* OFL.txt */; };
+		880BFBD9274660F500F4831B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC6274660F500F4831B /* Poppins-Regular.ttf */; };
+		880BFBDA274660F500F4831B /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC7274660F500F4831B /* Poppins-LightItalic.ttf */; };
+		880BFBDB274660F500F4831B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC8274660F500F4831B /* Poppins-Bold.ttf */; };
+		880BFBDC274660F500F4831B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBC9274660F500F4831B /* Poppins-Black.ttf */; };
+		880BFBDD274660F500F4831B /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBCA274660F500F4831B /* Poppins-Thin.ttf */; };
+		880BFBDE274660F500F4831B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBCB274660F500F4831B /* Poppins-SemiBold.ttf */; };
+		880BFBDF274660F500F4831B /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBCC274660F500F4831B /* Poppins-Italic.ttf */; };
+		880BFBE0274660F500F4831B /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 880BFBCD274660F500F4831B /* Poppins-MediumItalic.ttf */; };
+		8818B863274217F700733A7D /* SelectVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818B862274217F700733A7D /* SelectVideoVC.swift */; };
+		8818B8652742182700733A7D /* SelectVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818B8642742182700733A7D /* SelectVideoCell.swift */; };
+		881F541D2744B28C000A53C1 /* FolderCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F541C2744B28C000A53C1 /* FolderCC.swift */; };
+		8835C7E1274258F800E2A5D9 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835C7E0274258F800E2A5D9 /* SettingVC.swift */; };
+		8835C7E7274268C400E2A5D9 /* PatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8835C7E6274268C400E2A5D9 /* PatternVC.swift */; };
+		88677CB52747785400761245 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88677CB42747785400761245 /* GoogleService-Info.plist */; };
+		886C28402747560300B58836 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C283F2747560300B58836 /* constant.swift */; };
 		88D315D6273E8DD40057C3E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D315D5273E8DD40057C3E8 /* AppDelegate.swift */; };
 		88D315D8273E8DD40057C3E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D315D7273E8DD40057C3E8 /* SceneDelegate.swift */; };
 		88D315DA273E8DD40057C3E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D315D9273E8DD40057C3E8 /* ViewController.swift */; };
@@ -16,6 +43,16 @@
 		88D315E5273E8DD60057C3E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D315E3273E8DD60057C3E8 /* LaunchScreen.storyboard */; };
 		88D315F0273E8DD70057C3E8 /* Gallery_LockupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D315EF273E8DD70057C3E8 /* Gallery_LockupTests.swift */; };
 		88D315FB273E8DD70057C3E8 /* Gallery_LockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D315FA273E8DD70057C3E8 /* Gallery_LockupUITests.swift */; };
+		88F7D730273FAE7000284295 /* LockScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D72F273FAE7000284295 /* LockScreenVC.swift */; };
+		88F7D732273FAE8100284295 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D731273FAE8100284295 /* HomeVC.swift */; };
+		88F7D734273FAEDD00284295 /* HideimgsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D733273FAEDD00284295 /* HideimgsVC.swift */; };
+		88F7D737273FB96F00284295 /* Menucell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D736273FB96F00284295 /* Menucell.swift */; };
+		88F7D739273FB99000284295 /* foldercell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D738273FB99000284295 /* foldercell.swift */; };
+		88F7D73B273FB9A000284295 /* photoscell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D73A273FB9A000284295 /* photoscell.swift */; };
+		88F7D73D273FCB5900284295 /* selectphotocell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D73C273FCB5900284295 /* selectphotocell.swift */; };
+		88F7D73F273FCBAB00284295 /* selectphotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7D73E273FCBAB00284295 /* selectphotoVC.swift */; };
+		ADA5F150A8AE77CD68CB84D5 /* Pods_Gallery_Lockup_Gallery_LockupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8047F25BE01D49D7B1A75CEF /* Pods_Gallery_Lockup_Gallery_LockupUITests.framework */; };
+		B184410A09B954015D920CAB /* Pods_Gallery_LockupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDB5817FE63C7F81A158551 /* Pods_Gallery_LockupTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +73,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DDB5817FE63C7F81A158551 /* Pods_Gallery_LockupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gallery_LockupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8047F25BE01D49D7B1A75CEF /* Pods_Gallery_Lockup_Gallery_LockupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gallery_Lockup_Gallery_LockupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		880BFBBB274660F500F4831B /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		880BFBBC274660F500F4831B /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		880BFBBD274660F500F4831B /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		880BFBBE274660F500F4831B /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		880BFBBF274660F500F4831B /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		880BFBC0274660F500F4831B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		880BFBC1274660F500F4831B /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		880BFBC2274660F500F4831B /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		880BFBC3274660F500F4831B /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		880BFBC4274660F500F4831B /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		880BFBC5274660F500F4831B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		880BFBC6274660F500F4831B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		880BFBC7274660F500F4831B /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		880BFBC8274660F500F4831B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		880BFBC9274660F500F4831B /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		880BFBCA274660F500F4831B /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		880BFBCB274660F500F4831B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		880BFBCC274660F500F4831B /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		880BFBCD274660F500F4831B /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8818B862274217F700733A7D /* SelectVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVideoVC.swift; sourceTree = "<group>"; };
+		8818B8642742182700733A7D /* SelectVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVideoCell.swift; sourceTree = "<group>"; };
+		881F541C2744B28C000A53C1 /* FolderCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCC.swift; sourceTree = "<group>"; };
+		8835C7E0274258F800E2A5D9 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		8835C7E6274268C400E2A5D9 /* PatternVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternVC.swift; sourceTree = "<group>"; };
+		88677CB42747785400761245 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		886C283F2747560300B58836 /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
 		88D315D2273E8DD40057C3E8 /* Gallery Lockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gallery Lockup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D315D5273E8DD40057C3E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88D315D7273E8DD40057C3E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +116,21 @@
 		88D315F6273E8DD70057C3E8 /* Gallery LockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gallery LockupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D315FA273E8DD70057C3E8 /* Gallery_LockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery_LockupUITests.swift; sourceTree = "<group>"; };
 		88D315FC273E8DD70057C3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F7D72F273FAE7000284295 /* LockScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenVC.swift; sourceTree = "<group>"; };
+		88F7D731273FAE8100284295 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		88F7D733273FAEDD00284295 /* HideimgsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideimgsVC.swift; sourceTree = "<group>"; };
+		88F7D736273FB96F00284295 /* Menucell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menucell.swift; sourceTree = "<group>"; };
+		88F7D738273FB99000284295 /* foldercell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foldercell.swift; sourceTree = "<group>"; };
+		88F7D73A273FB9A000284295 /* photoscell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoscell.swift; sourceTree = "<group>"; };
+		88F7D73C273FCB5900284295 /* selectphotocell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectphotocell.swift; sourceTree = "<group>"; };
+		88F7D73E273FCBAB00284295 /* selectphotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectphotoVC.swift; sourceTree = "<group>"; };
+		9A94D2F53F5939E5DB2ED4B4 /* Pods-Gallery Lockup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery Lockup.release.xcconfig"; path = "Target Support Files/Pods-Gallery Lockup/Pods-Gallery Lockup.release.xcconfig"; sourceTree = "<group>"; };
+		9FA5262CA39D9EA8BCCE9CE9 /* Pods_Gallery_Lockup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gallery_Lockup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CA84682E6729658C859DC3 /* Pods-Gallery LockupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery LockupTests.debug.xcconfig"; path = "Target Support Files/Pods-Gallery LockupTests/Pods-Gallery LockupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C489037FC87BB6784C2429FA /* Pods-Gallery LockupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery LockupTests.release.xcconfig"; path = "Target Support Files/Pods-Gallery LockupTests/Pods-Gallery LockupTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5CC1A41E7674D1908DA0C01 /* Pods-Gallery Lockup-Gallery LockupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery Lockup-Gallery LockupUITests.release.xcconfig"; path = "Target Support Files/Pods-Gallery Lockup-Gallery LockupUITests/Pods-Gallery Lockup-Gallery LockupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3368D7DBF76AF498727EEA3 /* Pods-Gallery Lockup-Gallery LockupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery Lockup-Gallery LockupUITests.debug.xcconfig"; path = "Target Support Files/Pods-Gallery Lockup-Gallery LockupUITests/Pods-Gallery Lockup-Gallery LockupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E995742847D3F2B2E3CB2A1A /* Pods-Gallery Lockup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gallery Lockup.debug.xcconfig"; path = "Target Support Files/Pods-Gallery Lockup/Pods-Gallery Lockup.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35305BAB846E5CC4681BC3C8 /* Pods_Gallery_Lockup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B184410A09B954015D920CAB /* Pods_Gallery_LockupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +154,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADA5F150A8AE77CD68CB84D5 /* Pods_Gallery_Lockup_Gallery_LockupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306B69C1125BEED5D3F7EA11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E995742847D3F2B2E3CB2A1A /* Pods-Gallery Lockup.debug.xcconfig */,
+				9A94D2F53F5939E5DB2ED4B4 /* Pods-Gallery Lockup.release.xcconfig */,
+				E3368D7DBF76AF498727EEA3 /* Pods-Gallery Lockup-Gallery LockupUITests.debug.xcconfig */,
+				D5CC1A41E7674D1908DA0C01 /* Pods-Gallery Lockup-Gallery LockupUITests.release.xcconfig */,
+				B6CA84682E6729658C859DC3 /* Pods-Gallery LockupTests.debug.xcconfig */,
+				C489037FC87BB6784C2429FA /* Pods-Gallery LockupTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77DCB34702B8E9C1006CB9F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA5262CA39D9EA8BCCE9CE9 /* Pods_Gallery_Lockup.framework */,
+				8047F25BE01D49D7B1A75CEF /* Pods_Gallery_Lockup_Gallery_LockupUITests.framework */,
+				2DDB5817FE63C7F81A158551 /* Pods_Gallery_LockupTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		880BFBBA274660F500F4831B /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				880BFBBB274660F500F4831B /* Poppins-ExtraLight.ttf */,
+				880BFBBC274660F500F4831B /* Poppins-ThinItalic.ttf */,
+				880BFBBD274660F500F4831B /* Poppins-ExtraLightItalic.ttf */,
+				880BFBBE274660F500F4831B /* Poppins-BoldItalic.ttf */,
+				880BFBBF274660F500F4831B /* Poppins-Light.ttf */,
+				880BFBC0274660F500F4831B /* Poppins-Medium.ttf */,
+				880BFBC1274660F500F4831B /* Poppins-SemiBoldItalic.ttf */,
+				880BFBC2274660F500F4831B /* Poppins-ExtraBoldItalic.ttf */,
+				880BFBC3274660F500F4831B /* Poppins-ExtraBold.ttf */,
+				880BFBC4274660F500F4831B /* Poppins-BlackItalic.ttf */,
+				880BFBC5274660F500F4831B /* OFL.txt */,
+				880BFBC6274660F500F4831B /* Poppins-Regular.ttf */,
+				880BFBC7274660F500F4831B /* Poppins-LightItalic.ttf */,
+				880BFBC8274660F500F4831B /* Poppins-Bold.ttf */,
+				880BFBC9274660F500F4831B /* Poppins-Black.ttf */,
+				880BFBCA274660F500F4831B /* Poppins-Thin.ttf */,
+				880BFBCB274660F500F4831B /* Poppins-SemiBold.ttf */,
+				880BFBCC274660F500F4831B /* Poppins-Italic.ttf */,
+				880BFBCD274660F500F4831B /* Poppins-MediumItalic.ttf */,
+			);
+			name = Poppins;
+			path = ../../../../Downloads/Poppins;
+			sourceTree = "<group>";
+		};
 		88D315C9273E8DD40057C3E8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +218,8 @@
 				88D315EE273E8DD70057C3E8 /* Gallery LockupTests */,
 				88D315F9273E8DD70057C3E8 /* Gallery LockupUITests */,
 				88D315D3273E8DD40057C3E8 /* Products */,
+				306B69C1125BEED5D3F7EA11 /* Pods */,
+				77DCB34702B8E9C1006CB9F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +236,18 @@
 		88D315D4273E8DD40057C3E8 /* Gallery Lockup */ = {
 			isa = PBXGroup;
 			children = (
+				880BFBBA274660F500F4831B /* Poppins */,
+				88F7D735273FB95700284295 /* cells */,
+				88F7D740273FCBF800284295 /* Controllers */,
 				88D315D5273E8DD40057C3E8 /* AppDelegate.swift */,
 				88D315D7273E8DD40057C3E8 /* SceneDelegate.swift */,
-				88D315D9273E8DD40057C3E8 /* ViewController.swift */,
 				88D315DB273E8DD40057C3E8 /* Main.storyboard */,
 				88D315E1273E8DD60057C3E8 /* Assets.xcassets */,
 				88D315E3273E8DD60057C3E8 /* LaunchScreen.storyboard */,
 				88D315E6273E8DD60057C3E8 /* Info.plist */,
+				88677CB42747785400761245 /* GoogleService-Info.plist */,
 				88D315DE273E8DD40057C3E8 /* Gallery_Lockup.xcdatamodeld */,
+				886C283F2747560300B58836 /* constant.swift */,
 			);
 			path = "Gallery Lockup";
 			sourceTree = "<group>";
@@ -131,6 +270,34 @@
 			path = "Gallery LockupUITests";
 			sourceTree = "<group>";
 		};
+		88F7D735273FB95700284295 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				88F7D736273FB96F00284295 /* Menucell.swift */,
+				88F7D738273FB99000284295 /* foldercell.swift */,
+				88F7D73A273FB9A000284295 /* photoscell.swift */,
+				88F7D73C273FCB5900284295 /* selectphotocell.swift */,
+				8818B8642742182700733A7D /* SelectVideoCell.swift */,
+				881F541C2744B28C000A53C1 /* FolderCC.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		88F7D740273FCBF800284295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				88D315D9273E8DD40057C3E8 /* ViewController.swift */,
+				88F7D73E273FCBAB00284295 /* selectphotoVC.swift */,
+				88F7D72F273FAE7000284295 /* LockScreenVC.swift */,
+				88F7D731273FAE8100284295 /* HomeVC.swift */,
+				88F7D733273FAEDD00284295 /* HideimgsVC.swift */,
+				8818B862274217F700733A7D /* SelectVideoVC.swift */,
+				8835C7E0274258F800E2A5D9 /* SettingVC.swift */,
+				8835C7E6274268C400E2A5D9 /* PatternVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88D315FF273E8DD70057C3E8 /* Build configuration list for PBXNativeTarget "Gallery Lockup" */;
 			buildPhases = (
+				1A51848FDDAEA12516006B9F /* [CP] Check Pods Manifest.lock */,
 				88D315CE273E8DD40057C3E8 /* Sources */,
 				88D315CF273E8DD40057C3E8 /* Frameworks */,
 				88D315D0273E8DD40057C3E8 /* Resources */,
+				DA3CAB49B14D0566F851CD0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88D31602273E8DD70057C3E8 /* Build configuration list for PBXNativeTarget "Gallery LockupTests" */;
 			buildPhases = (
+				16BB964A8D41538500872BDB /* [CP] Check Pods Manifest.lock */,
 				88D315E7273E8DD70057C3E8 /* Sources */,
 				88D315E8273E8DD70057C3E8 /* Frameworks */,
 				88D315E9273E8DD70057C3E8 /* Resources */,
@@ -173,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88D31605273E8DD70057C3E8 /* Build configuration list for PBXNativeTarget "Gallery LockupUITests" */;
 			buildPhases = (
+				4BC5B84B5C09E09F5E0C6FEB /* [CP] Check Pods Manifest.lock */,
 				88D315F2273E8DD70057C3E8 /* Sources */,
 				88D315F3273E8DD70057C3E8 /* Frameworks */,
 				88D315F4273E8DD70057C3E8 /* Resources */,
+				762AAA59C70B3F0894ABFCD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +406,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880BFBDD274660F500F4831B /* Poppins-Thin.ttf in Resources */,
+				880BFBE0274660F500F4831B /* Poppins-MediumItalic.ttf in Resources */,
+				880BFBD8274660F500F4831B /* OFL.txt in Resources */,
+				880BFBD0274660F500F4831B /* Poppins-ExtraLightItalic.ttf in Resources */,
+				880BFBD7274660F500F4831B /* Poppins-BlackItalic.ttf in Resources */,
+				880BFBCE274660F500F4831B /* Poppins-ExtraLight.ttf in Resources */,
+				880BFBDE274660F500F4831B /* Poppins-SemiBold.ttf in Resources */,
+				880BFBD1274660F500F4831B /* Poppins-BoldItalic.ttf in Resources */,
+				880BFBD2274660F500F4831B /* Poppins-Light.ttf in Resources */,
+				880BFBDC274660F500F4831B /* Poppins-Black.ttf in Resources */,
+				880BFBDF274660F500F4831B /* Poppins-Italic.ttf in Resources */,
+				880BFBD6274660F500F4831B /* Poppins-ExtraBold.ttf in Resources */,
+				880BFBDA274660F500F4831B /* Poppins-LightItalic.ttf in Resources */,
 				88D315E5273E8DD60057C3E8 /* LaunchScreen.storyboard in Resources */,
+				880BFBD4274660F500F4831B /* Poppins-SemiBoldItalic.ttf in Resources */,
+				880BFBD9274660F500F4831B /* Poppins-Regular.ttf in Resources */,
+				880BFBD5274660F500F4831B /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				880BFBDB274660F500F4831B /* Poppins-Bold.ttf in Resources */,
+				880BFBCF274660F500F4831B /* Poppins-ThinItalic.ttf in Resources */,
+				88677CB52747785400761245 /* GoogleService-Info.plist in Resources */,
+				880BFBD3274660F500F4831B /* Poppins-Medium.ttf in Resources */,
 				88D315E2273E8DD60057C3E8 /* Assets.xcassets in Resources */,
 				88D315DD273E8DD40057C3E8 /* Main.storyboard in Resources */,
 			);
@@ -256,15 +448,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16BB964A8D41538500872BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gallery LockupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A51848FDDAEA12516006B9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gallery Lockup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BC5B84B5C09E09F5E0C6FEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gallery Lockup-Gallery LockupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762AAA59C70B3F0894ABFCD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallery Lockup-Gallery LockupUITests/Pods-Gallery Lockup-Gallery LockupUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallery Lockup-Gallery LockupUITests/Pods-Gallery Lockup-Gallery LockupUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gallery Lockup-Gallery LockupUITests/Pods-Gallery Lockup-Gallery LockupUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA3CAB49B14D0566F851CD0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallery Lockup/Pods-Gallery Lockup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gallery Lockup/Pods-Gallery Lockup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gallery Lockup/Pods-Gallery Lockup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88D315CE273E8DD40057C3E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F7D730273FAE7000284295 /* LockScreenVC.swift in Sources */,
+				886C28402747560300B58836 /* constant.swift in Sources */,
+				8835C7E7274268C400E2A5D9 /* PatternVC.swift in Sources */,
 				88D315E0273E8DD40057C3E8 /* Gallery_Lockup.xcdatamodeld in Sources */,
+				88F7D73B273FB9A000284295 /* photoscell.swift in Sources */,
+				88F7D734273FAEDD00284295 /* HideimgsVC.swift in Sources */,
 				88D315DA273E8DD40057C3E8 /* ViewController.swift in Sources */,
+				88F7D739273FB99000284295 /* foldercell.swift in Sources */,
+				8818B863274217F700733A7D /* SelectVideoVC.swift in Sources */,
+				8835C7E1274258F800E2A5D9 /* SettingVC.swift in Sources */,
+				88F7D732273FAE8100284295 /* HomeVC.swift in Sources */,
+				881F541D2744B28C000A53C1 /* FolderCC.swift in Sources */,
 				88D315D6273E8DD40057C3E8 /* AppDelegate.swift in Sources */,
+				8818B8652742182700733A7D /* SelectVideoCell.swift in Sources */,
+				88F7D737273FB96F00284295 /* Menucell.swift in Sources */,
+				88F7D73F273FCBAB00284295 /* selectphotoVC.swift in Sources */,
 				88D315D8273E8DD40057C3E8 /* SceneDelegate.swift in Sources */,
+				88F7D73D273FCB5900284295 /* selectphotocell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +746,12 @@
 		};
 		88D31600273E8DD70057C3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E995742847D3F2B2E3CB2A1A /* Pods-Gallery Lockup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVN36PXMM9;
 				INFOPLIST_FILE = "Gallery Lockup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,10 +766,12 @@
 		};
 		88D31601273E8DD70057C3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A94D2F53F5939E5DB2ED4B4 /* Pods-Gallery Lockup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PVN36PXMM9;
 				INFOPLIST_FILE = "Gallery Lockup/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +786,7 @@
 		};
 		88D31603273E8DD70057C3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CA84682E6729658C859DC3 /* Pods-Gallery LockupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +808,7 @@
 		};
 		88D31604273E8DD70057C3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C489037FC87BB6784C2429FA /* Pods-Gallery LockupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +830,7 @@
 		};
 		88D31606273E8DD70057C3E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3368D7DBF76AF498727EEA3 /* Pods-Gallery Lockup-Gallery LockupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +850,7 @@
 		};
 		88D31607273E8DD70057C3E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CC1A41E7674D1908DA0C01 /* Pods-Gallery Lockup-Gallery LockupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
