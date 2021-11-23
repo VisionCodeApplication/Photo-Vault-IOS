@@ -26,6 +26,10 @@ class HideimgsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     }
     
 
+    @IBOutlet var videobtnsubview: UIView!
+    @IBOutlet var Videobtnview: UIView!
+    @IBOutlet var Photobtnsubview: UIView!
+    @IBOutlet var Photobtnview: UIView!
     @IBOutlet var Worningview: UIView!
     @IBOutlet var warningsubview: UIView!
     @IBOutlet var Blurview: UIView!
@@ -56,6 +60,16 @@ class HideimgsVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        Photobtnview.backgroundColor = UIColor(red: 0.52, green: 0.61, blue: 0.59, alpha: 1)
+        Photobtnview.layer.cornerRadius = 10
+        Photobtnsubview.layer.borderColor = UIColor(red: 0.52, green: 0.61, blue: 0.59, alpha: 0.8).cgColor
+        Photobtnsubview.layer.cornerRadius = 10
+        Photobtnsubview.layer.borderWidth = 2
+        Videobtnview.backgroundColor = UIColor(red: 0.52, green: 0.61, blue: 0.59, alpha: 1)
+        Videobtnview.layer.cornerRadius = 10
+        videobtnsubview.layer.borderColor = UIColor(red: 0.52, green: 0.61, blue: 0.59, alpha: 0.8).cgColor
+        videobtnsubview.layer.cornerRadius = 10
+        videobtnsubview.layer.borderWidth = 2
         btncount = 0
         Bottomview.layer.shadowColor = UIColor.black.cgColor
         Bottomview.layer.shadowOffset = .zero

@@ -40,16 +40,44 @@ class PatternVC: UIViewController {
         gestureLock.lockSize = (3, 3)
         
         // Sensor grid customisations
-        gestureLock.edgeInsets = UIEdgeInsetsMake(30, 30, 30, 30)
+        if UIDevice.current.model == "iPhone" {
+            gestureLock.edgeInsets = UIEdgeInsetsMake(10, -20, 0, -20)
+        }else{
+            gestureLock.edgeInsets = UIEdgeInsetsMake(-20, 20, 50, 20)
+        }
         
         // Sensor point customisation (normal)
-        gestureLock.setSensorAppearance(
-            type: .inner,
-            radius: 5,
-            width: 1,
-            color: .white,
-            forState: .normal
-        )
+        if UIDevice.current.model == "iPhone" {
+            gestureLock.setSensorAppearance(
+                type: .inner,
+                radius: 3,
+                width: 5,
+                color: .white,
+                forState: .normal
+            )
+            gestureLock.setSensorAppearance(
+                type: .inner,
+                radius: 3,
+                width: 5,
+                color: .white,
+                forState: .selected
+            )
+        }else{
+            gestureLock.setSensorAppearance(
+                type: .inner,
+                radius: 4,
+                width: 8,
+                color: .white,
+                forState: .normal
+            )
+            gestureLock.setSensorAppearance(
+                type: .inner,
+                radius: 4,
+                width: 8,
+                color: .white,
+                forState: .selected
+            )
+        }
         gestureLock.setSensorAppearance(
             type: .outer,
             color: .white,
@@ -57,13 +85,7 @@ class PatternVC: UIViewController {
         )
         
         // Sensor point customisation (selected)
-        gestureLock.setSensorAppearance(
-            type: .inner,
-            radius: 3,
-            width: 5,
-            color: .white,
-            forState: .selected
-        )
+        
         gestureLock.setSensorAppearance(
             type: .outer,
             radius: 30,

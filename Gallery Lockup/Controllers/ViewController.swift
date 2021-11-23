@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tagcount = 1
         navigationController?.navigationBar.isHidden = true
+        
         passwordtype()
         let use = UserDefaults.standard
         if use.value(forKey: "torf") != nil {
@@ -45,7 +46,6 @@ class ViewController: UIViewController {
         }else{
             passwordset = false
         }
-        password()
         setupGestureLock()
         // Do any additional setup after loading the view.
     }
@@ -56,8 +56,8 @@ class ViewController: UIViewController {
         }else{
             passwordset = false
         }
-        passwordtype()
         password()
+        passwordtype()
         tagcount = 1
     }
     
@@ -421,7 +421,11 @@ class ViewController: UIViewController {
         patternview.lockSize = (3, 3)
         
         // Sensor grid customisations
-        patternview.edgeInsets = UIEdgeInsetsMake(30, 30, 30, 30)
+        if UIDevice.current.model == "iPhone" {
+            patternview.edgeInsets = UIEdgeInsetsMake(10, -20, 0, -20)
+        }else{
+            patternview.edgeInsets = UIEdgeInsetsMake(-20, 20, 50, 20)
+        }
         
         // Sensor point customisation (normal)
         patternview.setSensorAppearance(
